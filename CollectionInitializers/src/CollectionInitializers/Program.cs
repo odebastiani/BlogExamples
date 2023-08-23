@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CollectionInitializers
 {
-    internal class Program
+    public static class Program
     {
         public static void Main()
         {
@@ -58,13 +58,30 @@ namespace CollectionInitializers
         private static void TestMyCollection()
         {
             // Custom Collection with Object Initializer
-            MyCollection col1 = new MyCollection() { 99, "x", "y" };
+            MyCollection col1 = new MyCollection()
+            {
+                99,
+                "x",
+                "y"
+            };
+
             PrintCollection(col1, "Custom: new MyCollection() { int, string, string }");
 
-            MyCollection col2 = new MyCollection() { { 1, 2 }, { "x", "y", "z" }, "z" };
+            MyCollection col2 = new MyCollection()
+            {
+                { 1, 2 },
+                { "x", "y", "z" },
+                "z"
+            };
+
             PrintCollection(col2, "Custom: new MyCollection() { { string, string }, string }");
 
-            MyCollection col3 = new MyCollection() { [1] = "X", [2, 3] = "Y" };
+            MyCollection col3 = new MyCollection()
+            {
+                [1] = "X",
+                [2, 3] = "Y"
+            };
+
             PrintCollection(col3, "Custom: new MyCollection() { [int] = string, [int, int] = string }");
 
             // Custom Collection with Add method
