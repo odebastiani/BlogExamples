@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F03F289-02E1-4C13-A94E-89BADDE70D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "src\Enums\Enums.csproj", "{527391B8-7D46-472B-A29C-1E1902F7906E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{976B32CB-108E-492E-B35E-F807E9737016}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\exclusion.dic = ..\exclusion.dic
+		..\LICENSE.md = ..\LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{527391B8-7D46-472B-A29C-1E1902F7906E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527391B8-7D46-472B-A29C-1E1902F7906E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527391B8-7D46-472B-A29C-1E1902F7906E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527391B8-7D46-472B-A29C-1E1902F7906E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{527391B8-7D46-472B-A29C-1E1902F7906E} = {4F03F289-02E1-4C13-A94E-89BADDE70D5E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A44D974-2CDC-4D9B-8DEA-004DA3368F80}
+	EndGlobalSection
+EndGlobal
